@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "description": "A cinematic, futuristic countdown experience for major decision releases with glassmorphism and ambient animations.",
+  "description": "Cinematic futuristic countdown with glassmorphism",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,9 +11,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
+    "react-dom": "^18.2.0",
     "vite": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.0",
     "typescript": "^5.1.0"
