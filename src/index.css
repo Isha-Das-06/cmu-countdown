@@ -1,10 +1,12 @@
+/* src/index.css */
+
+/* Custom fonts must come first */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
 /* Tailwind base, components, utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 /* CSS variables */
 :root {
@@ -27,11 +29,11 @@ body {
 
 /* Neon glows */
 .neon-glow-cyan {
-  text-shadow: 0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(0, 243, 255, 0.3);
+  text-shadow: 0 0 10px rgba(0,243,255,0.5), 0 0 20px rgba(0,243,255,0.3);
 }
 
 .neon-glow-purple {
-  text-shadow: 0 0 10px rgba(188, 19, 254, 0.5), 0 0 20px rgba(188, 19, 254, 0.3);
+  text-shadow: 0 0 10px rgba(188,19,254,0.5), 0 0 20px rgba(188,19,254,0.3);
 }
 
 /* Animations */
