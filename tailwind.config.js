@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"
@@ -8,11 +8,14 @@ export default {
     extend: {
       colors: {
         'neon-cyan': '#00f3ff',
-        'neon-purple': '#bc13fe'
+        'neon-purple': '#bc13fe',
       },
       fontFamily: {
         sans: ['Space Grotesk', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        display: ['Orbitron', 'ui-sans-serif', 'system-ui', 'sans-serif']
+        display: ['Orbitron', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        'neon-glow': '0 0 50px rgba(0,243,255,0.5)',
       }
     },
   },
