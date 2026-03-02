@@ -11,12 +11,9 @@ module.exports = {
         'neon-purple': '#bc13fe',
       },
       fontFamily: {
-        sans: ['Space Grotesk', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        display: ['Orbitron', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['"Space Grotesk"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['"Orbitron"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
-      boxShadow: {
-        'neon-glow': '0 0 50px rgba(0,243,255,0.5)',
-      }
     },
   },
   plugins: [],
