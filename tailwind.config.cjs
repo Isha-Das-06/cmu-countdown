@@ -5,13 +5,13 @@ module.exports = {
     extend: {
       colors: {
         'neon-cyan': '#00f3ff',
-        'neon-purple': '#bc13fe'
+        'neon-purple': '#bc13fe',
       },
       fontFamily: {
         sans: ['Space Grotesk', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        display: ['Orbitron', 'ui-sans-serif', 'system-ui', 'sans-serif']
-      }
-    }
+        display: ['Orbitron', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }
